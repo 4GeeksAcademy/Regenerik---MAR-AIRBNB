@@ -1,0 +1,160 @@
+import type { Listing } from "@/types/listing";
+
+export const listings: Listing[] = [
+  {
+    id: "valle-cielo-01",
+    title: "Loft creativo con vista al valle",
+    location: "Punta del Este, Uruguay",
+    hostType: "Superhost",
+    pricePerNight: 132,
+    rating: 4.93,
+    reviews: 187,
+    guests: 4,
+    bedrooms: 2,
+    baths: 1,
+    amenities: ["WiFi", "Cocina", "Terraza", "Estacionamiento"],
+    description:
+      "Espacio de concepto abierto con luz natural, ideal para escapadas de fin de semana. Incluye una terraza privada con vista panoramica y rincon de lectura.",
+    tone: "coral",
+    images: [
+      "https://images.pexels.com/photos/271624/pexels-photo-271624.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/1454806/pexels-photo-1454806.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/2102587/pexels-photo-2102587.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/279746/pexels-photo-279746.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    ],
+    coordinates: { lat: -34.968, lng: -54.95 },
+  },
+  {
+    id: "mar-luz-02",
+    title: "Suite frente al mar con balcon",
+    location: "Piriapolis, Uruguay",
+    hostType: "Alojamiento entero",
+    pricePerNight: 189,
+    rating: 4.88,
+    reviews: 241,
+    guests: 3,
+    bedrooms: 1,
+    baths: 1,
+    amenities: ["Piscina", "AC", "Cocina", "Check-in autonomo"],
+    description:
+      "Suite minimalista con balcon frente al mar. Ideal para parejas que buscan descanso, caminatas en playa y atardeceres sin salir del alojamiento.",
+    tone: "ocean",
+    images: [
+      "https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/261102/pexels-photo-261102.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/1450353/pexels-photo-1450353.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/1268855/pexels-photo-1268855.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    ],
+    coordinates: { lat: -34.862, lng: -55.274 },
+  },
+  {
+    id: "bosque-nube-03",
+    title: "Cabana moderna entre pinos",
+    location: "Villa Serrana, Uruguay",
+    hostType: "Superhost",
+    pricePerNight: 104,
+    rating: 4.97,
+    reviews: 96,
+    guests: 5,
+    bedrooms: 2,
+    baths: 2,
+    amenities: ["Chimenea", "Asador", "WiFi", "Tina exterior"],
+    description:
+      "Cabana de madera con acabados contemporaneos. El espacio combina confort y naturaleza, con zona de fogata y senderos cercanos.",
+    tone: "forest",
+    images: [
+      "https://images.pexels.com/photos/803975/pexels-photo-803975.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/754268/pexels-photo-754268.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/147411/pexels-photo-147411.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/1534057/pexels-photo-1534057.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    ],
+    coordinates: { lat: -34.322, lng: -54.995 },
+  },
+  {
+    id: "sol-patio-04",
+    title: "Casa con patio y alberca privada",
+    location: "Colonia del Sacramento, Uruguay",
+    hostType: "Alojamiento entero",
+    pricePerNight: 156,
+    rating: 4.85,
+    reviews: 132,
+    guests: 6,
+    bedrooms: 3,
+    baths: 2,
+    amenities: ["Piscina", "Cocina", "Lavadora", "Pet friendly"],
+    description:
+      "Casa de una planta con patio central y alberca fresca. Excelente para viajes en familia, con cocina completa y zonas amplias para convivir.",
+    tone: "sun",
+    images: [
+      "https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/1438832/pexels-photo-1438832.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/1438834/pexels-photo-1438834.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/221457/pexels-photo-221457.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    ],
+    coordinates: { lat: -34.471, lng: -57.844 },
+  },
+  {
+    id: "piedra-atelier-05",
+    title: "Atelier urbano en barrio historico",
+    location: "Montevideo, Uruguay",
+    hostType: "Superhost",
+    pricePerNight: 118,
+    rating: 4.76,
+    reviews: 211,
+    guests: 2,
+    bedrooms: 1,
+    baths: 1,
+    amenities: ["WiFi", "Espacio de trabajo", "Elevador", "Gym"],
+    description:
+      "Loft en edificio restaurado, con interiorismo sobrio y excelente ubicacion para explorar galerias, cafes y restaurantes caminando.",
+    tone: "stone",
+    images: [
+      "https://images.pexels.com/photos/1643383/pexels-photo-1643383.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/259962/pexels-photo-259962.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/439227/pexels-photo-439227.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/1571457/pexels-photo-1571457.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/1648776/pexels-photo-1648776.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    ],
+    coordinates: { lat: -34.901, lng: -56.164 },
+  },
+  {
+    id: "berry-garden-06",
+    title: "Villa colorida con jardin tropical",
+    location: "La Paloma, Uruguay",
+    hostType: "Alojamiento entero",
+    pricePerNight: 172,
+    rating: 4.91,
+    reviews: 164,
+    guests: 7,
+    bedrooms: 3,
+    baths: 2,
+    amenities: ["Piscina", "Parrilla", "AC", "Estacionamiento"],
+    description:
+      "Villa luminosa rodeada de vegetacion. Ambientes abiertos, hamacas y comedor exterior para disfrutar clima calido todo el ano.",
+    tone: "berry",
+    images: [
+      "https://images.pexels.com/photos/32870/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/1126416/pexels-photo-1126416.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/1838554/pexels-photo-1838554.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/2581922/pexels-photo-2581922.jpeg?auto=compress&cs=tinysrgb&w=1400",
+      "https://images.pexels.com/photos/186077/pexels-photo-186077.jpeg?auto=compress&cs=tinysrgb&w=1400",
+    ],
+    coordinates: { lat: -34.662, lng: -54.164 },
+  },
+];
+
+export function getListingById(id: string) {
+  return listings.find((listing) => listing.id === id);
+}
+
+export function formatPrice(amount: number) {
+  return new Intl.NumberFormat("es-UY", {
+    style: "currency",
+    currency: "UYU",
+    maximumFractionDigits: 0,
+  }).format(amount);
+}
